@@ -1,5 +1,5 @@
 font.overpass {
-	font-family: 'Overpass', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	font-size: 50px;
 	text-shadow: 2px 2px blue;
 	text-align: center;
@@ -9,22 +9,76 @@ font.overpass {
 p.anton{
 	font-family: 'Anton', sans-serif;
 	font-size: 20px;
+
+
+}
+
+p.ubuntu{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-style: underline;
 }
 
 img.SEO {
 	border-radius: 8px;
 }
 
-body {
+.back-attribute {
 	background-color: gray;
-	margin-right: 300px;
-    margin-left: 300px;
+    margin-left: 250px;
+    margin-right: 250px;
+	border: 1px solid black;
+    border-radius: 25px;
+    border-width: 5px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+.top-bar{
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    border-width: 5px;
+    margin-bottom: 10px;
+    background-color: gray;
     
 }
 
+/* NAV BAR */
+ul {
+    font-family: 'Anton',sans-serif;
+    list-style-type: none;
+    margin-bottom: : 10px;
+    border-radius: 20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+
+}
 
 
-#myImg {
+/* MODAL IMAGE */
+
+#myImg{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;

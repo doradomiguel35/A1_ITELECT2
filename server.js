@@ -9,5 +9,8 @@ app.set('port', (process.env.PORT || 5000));
 app.use(express.static(path.join(__dirname, 'public')));
 //express routes
 app.get('/', function(req, res){
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, 'views/index.html'));
+});
+var server = app.listen(app.get('port'), function(){
+  console.log('Server listening on port ',app.get('port'));
 });
