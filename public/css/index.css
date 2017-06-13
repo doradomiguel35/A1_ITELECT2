@@ -1,14 +1,15 @@
-font.overpass {
+font.dosis {
 	font-family: 'Dosis', sans-serif;
 	font-size: 50px;
-	text-shadow: 2px 2px blue;
+	color: lightblue;
 	text-align: center;
 	
 }
 
 p.anton{
 	font-family: 'Anton', sans-serif;
-	font-size: 20px;
+    color: white;
+	font-size: 30px;
 
 
 }
@@ -16,6 +17,7 @@ p.anton{
 p.ubuntu{
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
+    color: white;
     font-style: underline;
 }
 
@@ -24,7 +26,7 @@ img.SEO {
 }
 
 .back-attribute {
-	background-color: gray;
+	background-color: black;
     margin-left: 250px;
     margin-right: 250px;
 	border: 1px solid black;
