@@ -1,23 +1,20 @@
 font.dosis {
 	font-family: 'Dosis', sans-serif;
 	font-size: 50px;
-	color: lightblue;
+	color: aqua;
 	text-align: center;
-	
 }
 
-p.anton{
-	font-family: 'Anton', sans-serif;
+p.raleway{
+	font-family: 'Raleway', sans-serif;
     color: white;
-	font-size: 30px;
-
-
+	font-size: 20px;
 }
 
 p.ubuntu{
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
-    color: white;
+    color: darkturquoise;
     font-style: underline;
 }
 
@@ -51,7 +48,7 @@ img.SEO {
 
 /* NAV BAR */
 ul {
-    font-family: 'Anton',sans-serif;
+    font-family: 'Raleway',sans-serif;
     list-style-type: none;
     margin-bottom: : 10px;
     border-radius: 20px;
@@ -79,7 +76,6 @@ li a:hover {
 
 
 /* MODAL IMAGE */
-
 #myImg{
     border-radius: 5px;
     cursor: pointer;
