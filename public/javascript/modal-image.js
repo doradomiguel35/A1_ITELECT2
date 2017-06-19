@@ -7,8 +7,9 @@ img.onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
-
+}
 var span = document.getElementsByClassName("close")[0];
 
 pan.onclick = function() { 
   modal.style.display = "none";
+}
