@@ -1,26 +1,27 @@
 font.dosis {
 	font-family: 'Dosis', sans-serif;
-	font-size: 350%;
+	font-size: 200%;
 	color: black;
-	text-align: center;
     margin-top: 10px;
 }
 
 p.raleway{
 	font-family: 'Raleway', sans-serif;
     color: black;
-	font-size: 20px;
+	font-size: 120%;
 }
 
 p.ubuntu{
     font-family: 'Ubuntu', sans-serif;
-    font-size: 40px;
+    font-size: 150%;
     color: black;
     font-style: underline;
 }
 
 img.SEO {
 	border-radius: 8px;
+    max-width: 200%;
+    max-height: 200%;
 }
 
 .centralized{
