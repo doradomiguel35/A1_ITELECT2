@@ -1,20 +1,21 @@
 font.dosis {
 	font-family: 'Dosis', sans-serif;
-	font-size: 50px;
-	color: aqua;
+	font-size: 350%;
+	color: black;
 	text-align: center;
+    margin-top: 10px;
 }
 
 p.raleway{
 	font-family: 'Raleway', sans-serif;
-    color: white;
+    color: black;
 	font-size: 20px;
 }
 
 p.ubuntu{
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
-    color: darkturquoise;
+    color: black;
     font-style: underline;
 }
 
@@ -22,17 +23,23 @@ img.SEO {
 	border-radius: 8px;
 }
 
+.centralized{
+    float: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .back-attribute {
 	background-color: black;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 20%;
+    margin-right: 16%;
 	border: 1px solid black;
     border-radius: 25px;
     border-width: 5px;
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
+    padding-top: 5% ;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-left: 5%;
 }
 
 .top-bar{
@@ -56,7 +63,8 @@ img.SEO {
 }
 
 /* NAV BAR */
-ul {
+ul.nav {
+    
     font-family: 'Raleway',sans-serif;
     list-style-type: none;
     margin-bottom: : 10px;
@@ -66,7 +74,7 @@ ul {
     background-color: #333;
 }
 
-li {
+li.nav {
     float: left;
 }
 
