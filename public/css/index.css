@@ -28,6 +28,10 @@ img.SEO {
     margin-right: 17%;
 }
 
+.fixed{
+    position: fixed;
+}
+
 .back-attribute {
 	background-color: black;
     margin-left: 20%;
