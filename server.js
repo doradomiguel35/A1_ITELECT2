@@ -14,6 +14,9 @@ app.get('/', function(req, res){
 app.get('/ass2', function(req, res){
   res.sendFile(path.join(__dirname, 'views/index2.html'));
 });
+app.get('/ass3', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/index3.html'));
+});
 var server = app.listen(app.get('port'), function(){
   console.log('Server listening on port ',app.get('port'));
 });
