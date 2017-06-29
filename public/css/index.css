@@ -19,13 +19,13 @@ p.ubuntu{
 }
 
 img.SEO {
-	border-radius: 8px;
+	float: left;
 }
 
 .centralized{
     float: center;
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 17%;
+    margin-right: 17%;
 }
 
 .back-attribute {
@@ -49,6 +49,9 @@ img.SEO {
     border-width: 5px;
     margin-bottom: 10px;
     background-color: gray;
+    margin-right: 1%;
+    margin-left: 1%;
+
 }
 
 .bottom-bar{
@@ -65,12 +68,15 @@ img.SEO {
 ul.nav {
     
     font-family: 'Raleway',sans-serif;
+    font-size: 100%;
     list-style-type: none;
     margin-bottom: : 10px;
     border-radius: 20px;
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 li.nav {
