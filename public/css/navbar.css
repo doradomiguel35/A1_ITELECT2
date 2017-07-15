@@ -1,6 +1,5 @@
 /* NAV BAR */
 ul.nav {
-    
     font-family: 'Raleway',sans-serif;
     font-size: 100%;
     list-style-type: none;
@@ -11,21 +10,13 @@ ul.nav {
     background-color: #333;
     margin-left: 5%;
     margin-right: 5%;
-}
-
-li.nav {
+}li.nav {
     float: left;
-}
-
-li a {
+}li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-
-}
+}li a:hover {
+    background-color: #111;}
