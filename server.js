@@ -23,8 +23,6 @@ app.get('/act1', function(req, res){
 app.get('/act2', function(req, res){
   res.sendFile(path.join(__dirname, 'views/index5.html'));
 });
-
-
 var server = app.listen(app.get('port'), function(){
   console.log('Server listening on port ',app.get('port'));
 });
