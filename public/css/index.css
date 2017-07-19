@@ -13,6 +13,7 @@ h4{
 	font-family: 'Raleway', sans-serif;
     color: black;
 	font-size: 120%;
+    word-wrap: break-word;
 }p.ubuntu{
     font-family: 'Ubuntu', sans-serif;
     font-size: 150%;
