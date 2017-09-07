@@ -151,54 +151,21 @@
 </div>
 <br>
 <br>
+<br>
+<br>
+<div id="fb-root" ></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="1" style="margin-left: 35%;margin-right: 17%"></div>
+
 <div class="bottom-bar">
-
-<h4>Comments </h4>
-<br>
-<br>
-<div class="w3-panel">
-<img src="img/user1.png " style="width: 4%;float: left">
-<p class="ubuntu"> TrexKiller8902</p>
-  <p class="raleway"> It has good content as well as has an understandable information on what are the advantages of knowing what SEO is.</p>
-</div>
-<div id="comments">
-
-</div id="comments">
-
-<div class="w3-panel">
-<img src="img/user1.png " style="width: 4%;float: left">
-<input type="text" class="form-control" name="username" id="username"  placeholder="Enter your Username"/><br>
-
-  
-<textarea rows="4" cols="50" style="margin-right: 20px;" placeholder="Comments" id="comment"></textarea>
-
-<form action="/">
-<button onclick="comment()" class="btn btn-primary btn-lg btn-block register-button" type="submit">Submit</button>
-</form>
-</div>
-<script type="text/javascript" src="javascript/add_comment.js"></script>
-
-<script>
-  let jns_parse = JSON.parse(localStorage.getItem('json_comments'));
-        console.log(jns_parse);
-
-        let html=``;
-        jns_parse.map((comment)=>{
-    
-        html += `
-        <div class="w3-panel">
-        <img src="img/user1.png " style="width: 4%;float: left">
-        <p class="ubuntu">${comment.username}</p>
-        <p class="raleway">${comment.comment}</p> 
-        </div>`;
-        });
-        document.querySelector('#comments').innerHTML = html;
-</script>
-
-<br>
-<br>
-<br>
-<br>
 <p class="Raleway" align="center">doradomiguel35@gmail.com</p>
 </div>
 
