@@ -26,6 +26,9 @@ app.get('/act2', function(req, res){
 app.get('/contact', function(req, res){
   res.sendFile(path.join(__dirname, 'views/contact.html'));
 });
+app.get('/netethics', function(req, res){
+  res.sendFile(path.join(__dirname, 'views/netethics.html'));
+});
 var server = app.listen(app.get('port'), function(){
   console.log('Server listening on port ',app.get('port'));
 });
